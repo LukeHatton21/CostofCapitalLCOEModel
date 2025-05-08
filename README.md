@@ -37,10 +37,7 @@ To run the model, run the wacc_model.py script with the desired regions and inpu
 ## USAGE INSTRUCTIONS
 
 First, edit the paths in the wacc_model script and ensure that the input folder (DATA) are set up correctly.
-Second, ensure that all the required data files are in the DATA folder. Several files need to be downloaded and directly added, including: 
-*[ETOPO_bathymetry.nc](https://www.ncei.noaa.gov/products/etopo-global-relief-model) 
-*[distance2shore.nc](https://catalog.data.gov/dataset/distance-to-nearest-coastline-0-04-degree-grid). 
-Download both and add to /DATA/
+Second, ensure that all the required data files are in the DATA folder, with modification of the renewable profiles if desired. Renewable profiles must be translated into a capacity factor average from the selected years.
 Third, decide on the model parameters that you wish to use.
 
 Fourth, run the wacc_model.py. 
